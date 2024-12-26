@@ -1,3 +1,7 @@
+from distutils.core import setup
+
+# Depois (usando setuptools):
+from setuptools import setup
 import streamlit as st
 
 from utils import bg_page
